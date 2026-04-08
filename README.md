@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 4. Quick Start: Pricing a "Crisis" Scenario
 
-```
+``` python
 from jump_engine.nucleus.sde import MertonJumpDiffusion
 from jump_engine.pricing.simulation import JumpPricer
 
