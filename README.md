@@ -16,7 +16,7 @@ Hardware Efficiency: Achieve 50x-100x throughput increases over CPU-based NumPy 
 
 2. Installation
 
-git clone https://github.com/cvksaijagadish/jump-engine.git
+git clone https://github.com/armouredbeast/jump-engine.git
 cd jump-engine
 pip install -r requirements.txt
 
