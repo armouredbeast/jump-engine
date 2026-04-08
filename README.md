@@ -16,15 +16,17 @@ Hardware Efficiency: Achieve 50x-100x throughput increases over CPU-based NumPy 
 
 2. Installation
 
+```
 git clone https://github.com/armouredbeast/jump-engine.git
 cd jump-engine
 pip install -r requirements.txt
+```
 
 
 
-3. Quick Start: Pricing a "Crisis" Scenario
+4. Quick Start: Pricing a "Crisis" Scenario
 
-
+```
 from jump_engine.nucleus.sde import MertonJumpDiffusion
 from jump_engine.pricing.simulation import JumpPricer
 
@@ -42,3 +44,5 @@ pricer = JumpPricer(model)
 price, stderr = pricer.price_european(S0=100, K=100, T=1.0, steps=252, n_paths=1_000_000)
 
 print(f"Jump-Adjusted Option Price: {price:.4f} (±{stderr:.4f})")
+
+```
